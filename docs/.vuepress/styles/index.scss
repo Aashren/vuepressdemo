@@ -1,0 +1,80 @@
+:root {
+    scroll-behavior: smooth;
+  }
+.search-box {
+    --search-bg-color: var(--c-bg);
+    --search-accent-color: var(--c-brand);
+    --search-text-color: var(--c-text);
+    --search-border-color: var(--c-border);
+  
+    --search-item-text-color: var(--c-text-lighter);
+    --search-item-focus-bg-color: var(--c-bg-light);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 55px;
+}
+
+h2 {
+    
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+
+h3 {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.home .hero {
+    padding-top:100px;
+}
+
+
+.hero > img {
+    transition: transform 0.2s;
+    height: 200px;
+    width: 400px;
+    margin:auto;
+    
+    border: 0.125rem solid black;
+    box-shadow: 0 0.1rem 1rem 0 gray;
+    transition: box-shadow 0.2s;
+    border-radius: 6.625rem;
+    margin-bottom: 0.625rem;
+    padding: 1rem;
+}
+
+
+.hero:hover > img {
+    box-shadow: 0.125rem 0.5rem 1rem 0.125rem #0b0c0f;
+    transform: scale(1.05);
+    transition: box-shadow 0.2s;
+}
+
+.actions {
+    padding-top:50px;
+}
+
+.map {
+    display:flex;
+    float:left;
+    padding-right:20px;
+}
+
+td > a:hover {
+    color:red;
+}
+
+.sidebar-items-children > li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+

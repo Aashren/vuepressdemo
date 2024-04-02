@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "lint": "eslint --ext .cjs,.js,.ts,.vue . && prettier --check ."
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.8",
+    "@vuepress/theme-default": "^2.0.0-rc.15",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "vue": "^3.2.0",
+    "vuepress": "^2.0.0-rc.8"
+  }
+}

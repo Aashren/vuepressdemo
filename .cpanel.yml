@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/antarikc/learn.antarikchya.org.np/
+    - /bin/cp -r docs/.vuepress/dist/* $DEPLOYPATH
